@@ -5,8 +5,8 @@
 using namespace std;
 
 int main(){
-	float Area, pi = 3.14, r;
-	
+	float Area, r;
+	const float pi = 3.14;
 	cout<<"Enter Radius Of Circle to Calculate Area:";
 	cin>>r;
 	Area = pi * r * r;

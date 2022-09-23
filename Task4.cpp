@@ -10,10 +10,10 @@ int main(){
 	
 	cout<<"Enter Ten Intergers to find Average:";
 	for(n=0;n<10;n++)
-	    cin>>arr[n]
+	    cin>>arr[n];
 	
 	for(n=0;n<10;n++)
-	    sum = sum + arr[n]
+	    sum = sum + arr[n];
 		
 	Avg = sum/10;
 	

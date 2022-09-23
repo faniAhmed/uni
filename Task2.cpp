@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
 	float diameter, r;
-	cout<<"Enter Radius Of Circle to Calculate Area:";
+	cout<<"Enter Radius Of Circle to Calculate Diameter:";
 	cin>>r;
 	diameter = 2 * r;
 	cout<<"Diameter = " << diameter;

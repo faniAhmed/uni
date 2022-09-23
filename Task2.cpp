@@ -10,6 +10,6 @@ int main(){
 	cout<<"Enter Radius Of Circle to Calculate Area:";
 	cin>>r;
 	diameter = 2 * r;
-	cout<<"Area = " << diameter;
+	cout<<"Diameter = " << diameter;
 	return 0;
 }

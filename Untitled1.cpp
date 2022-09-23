@@ -1,15 +1,15 @@
-//Write a program to calculate the area of a circle having a user-defined radius, and
-//pi = 3.14. (Area = ? R2)
+/*
+Write a program to calculate the diameter of a circle having a user-defined radius, and pi = 3.14.
+*/
 
 #include<iostream>
 using namespace std;
 
 int main(){
-	float Area, r;
-	const float pi = 3.14;
+	float diameter, r;
 	cout<<"Enter Radius Of Circle to Calculate Area:";
 	cin>>r;
-	Area = pi * r * r;
-	cout<<"Area = " << Area;
+	diameter = 2 * r;
+	cout<<"Area = " << diameter;
 	return 0;
 }

@@ -1,0 +1,63 @@
+Task 3:
+Problem:
+A program that checks whether the number is prime or not.
+Input:
+One Number
+Ouput:
+The Number you Entered is Prime.
+OR
+The Number you Entered is not Prime.
+Mathematical formula:
+Dividing num with each Number before its half, to Check if it is Divisible.
+If Nivisible then Number is Not Prime else it is Prime.
+Design:
+//including library istream
+#include<iostream>
+
+//defining standard namespace
+using namespace std;
+
+int main(){
+	//Variable Declaration
+	int num, x;
+	//inializing p_check to true 
+	bool p_check = true;
+  
+	
+	//getting input from user
+	cout<<"Enter any Natural Number:";
+	cin>>num;
+	
+	//if num is 1 or 2 it is a prime number
+	if(num == 1 || num == 2)
+	cout<<"The Number you Entered is Prime.";
+	
+	//if num is not 1 or 2
+	else
+	{
+		//loop runs from 2 to n-1
+		for(x=2;x<(n/2);x++)
+		{
+			
+			if(num % x == 0)
+			{
+				//p_check becomes false and loop breaks
+				p_check = false;
+				break;
+				
+			}
+
+		}
+		
+		//If p_check true then num is Prime else num is Not Prime
+		if (p_check)
+		cout<<"Its a Prime Number";
+		else
+		cout<<"Its not a Prime Number";
+	}
+	
+	//return 0 as integer ,as return datatype of main() function is int
+	return 0;
+	
+}
+Dry Run:

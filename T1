@@ -8,8 +8,9 @@ The Number you Entered is Prime.
 OR
 The Number you Entered is not Prime.
 Mathematical formula:
-Dividing num with each Number before its half, to Check if it is Divisible.
-If Nivisible then Number is Not Prime else it is Prime.
+If num is 1 or 2 then it is Prime
+else Dividing num with each Number before its half, to Check if it is Divisible.
+If num is Divisible then Number is Not Prime else it is Prime.
 Design:
 //including library istream
 #include<iostream>
